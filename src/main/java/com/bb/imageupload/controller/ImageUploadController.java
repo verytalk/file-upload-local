@@ -39,8 +39,7 @@ public class ImageUploadController {
         String fileName = file.getOriginalFilename();
         logger.info("api is {}","/imageUpload");
         logger.info("file type is : {}",fileType);
-        logger.info("file name is : {}",fileName);
-        logger.info("file name is : {}",fileName);
+        logger.info("file original name is : {}",fileName);
         logger.info("file size is : {}",file.getSize());
         logger.info("rewrite filename is : {}",filename);
         logger.info("request token is : {}",token);
